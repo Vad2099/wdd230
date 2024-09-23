@@ -18,6 +18,8 @@
 /* Body styling for overall layout */
 body {
     font-family: 'Lato', sans-serif; /* Body font */
+    font-weight: 400;
+    font-style: normal;
     background-color: var(--acent-color3); /* Background color for the page */
     color:var(--acent-color1); /* Text color */
     margin: 0;
