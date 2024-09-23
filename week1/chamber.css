@@ -18,33 +18,32 @@
 /* Body styling for overall layout */
 body {
     font-family: 'Lato', sans-serif; /* Body font */
-    font-weight: 400;
-    font-style: normal;
-    background-color: #F5F5F5; /* Background color for the page */
-    color: #333; /* Text color */
+    background-color: var(--acent-color3); /* Background color for the page */
+    color:var(--acent-color1); /* Text color */
     margin: 0;
     padding: 20px;
 }
 
 /* Header section styling */
 header {
-    background-color: #003D7A; /* Primary color for header background */
-    color: white; /* Text color for header */
+    background-color: var(--primary-color); /* Primary color for header background */
+    color: var(--acent-color3); /* Text color for header */
     text-align: center;
     padding: 20px;
 }
 
 /* Styling for headings (h1, h2) */
 h1 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather', serif; /* Font for headers */
     font-weight: 900;
-    font-style: normal; /* Font for headers */
+    font-style: normal;
 }
 
 h2 {
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: normal;
+    color: var(--secondary-color);
 }
 
 /* Styling for sections to add margin between each section */
@@ -58,12 +57,15 @@ ul {
     padding-left: 20px; /* Indent for list items */
 }
 
+section a {
+    color: var(--acent-color2);
+}
+
 /* Footer styling */
 footer {
     text-align: center;
     font-size: 0.9em; /* Smaller text for footer */
-    color: #666; /* Light grey color for footer text */
+    color: var(--acent-color3);
     padding: 20px;
-    background-color: #003D7A; /* Primary color for footer background */
-    color: white; /* White text in the footer */
+    background-color: var(--primary-color); /* Primary color for footer background */
 }
