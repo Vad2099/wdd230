@@ -129,7 +129,7 @@ main h1 {
 }
 
 .card ul li a {
-    display: block;
+    display: inline-block;
     text-decoration: none; 
     color: var(--primary-color); 
     padding: 0.5rem 0;
