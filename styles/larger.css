@@ -4,8 +4,17 @@
 		display: flex;
     }
 
+	#hamburgerBtn {
+		display: none;
+	}
+
 	nav ul li {
 		flex: 1 1 100%;
+	}
+
+	ul.menuList, ul.menuList.open {
+		display: flex;
+		justify-content: flex-end;
 	}
 
 	main {
