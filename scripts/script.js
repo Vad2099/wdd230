@@ -1,5 +1,5 @@
 const hamburgerBtn = document.querySelector('#hamburgerBtn');
-const navElements = document.querySelector('.menuList');
+const navElements = document.querySelector('#animated');
 
 // Toggle the hamburger menu when the button is clicked
 hamburgerBtn.addEventListener('click', () => {
