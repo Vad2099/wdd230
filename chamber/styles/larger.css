@@ -1,0 +1,94 @@
+/* Media Queries for larger screens */
+@media screen and (min-width: 700px) {
+
+	header {
+		display: flex;
+		position: relative;
+		align-items: center;
+		justify-content: center;
+		padding: 20px;
+		margin: 0;
+		padding: 2rem;
+	}
+
+	.logo {
+		width: 65px;
+		height: 65px;
+		top: 15px;
+		left: 15px;
+	}
+
+	.profile {
+		width: 120px;
+		height: 140px;
+		border-radius: 10%;
+	}
+
+	#darkBtn {
+		top: 15px;
+		right: 15px;
+	}
+
+	#lightBtn {
+		top: 15px;
+		right: 15px;
+	}
+
+	header span {
+		padding: 10px;
+		font-size: 32px;
+	}
+
+	nav {
+		grid-template-rows: 1fr;
+	}
+
+    nav ul {
+		display: flex;
+
+    }
+
+	#hamburgerBtn {
+		display: none;
+	}
+
+	nav ul li {
+		flex: 1 1 100%;
+	}
+
+	ul.menuList, ul.menuList.open {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	ul.menuList li a {
+		font-size: 20px;
+	}
+
+	main {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		column-gap: 20px;
+		grid-template-rows: 2fr;
+	}
+
+	main h1 {
+		grid-row: 1;
+		grid-column: 1 / 3;
+		width: 100%;
+		font-weight: 400;
+		font-size: 30px;
+		margin: 10px auto;
+	}
+
+	.card {
+		box-shadow: 1px 1px 10px black;
+	}
+
+	footer {
+		font-size:large;
+	}
+
+
+
+}

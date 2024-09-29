@@ -1,0 +1,63 @@
+/* Global styles and variables */
+:root {
+    --primary-color: #003D7A;
+    --secondary-color: #FFC31F;
+    --accent-color: #FF9A5C;
+    --background-color: #F5F5F5;
+    --text-color: #333333;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.hamburger-menu {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+
+
+.hero {
+    background-image: url('path-to-hero-image.jpg');
+    background-size: cover;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    text-align: center;
+    padding: 1rem;
+}
