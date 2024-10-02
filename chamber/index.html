@@ -7,63 +7,96 @@
     <meta name="description" content="Welcome to the Gustavo A. Madero Chamber of Commerce official site. Fostering local business growth and community connections.">
     <meta name="author" content="Valdemar Lasnibat">
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Gustavo A. Madero Chamber of Commerce">
-    <meta property="og:description" content="The Gustavo A. Madero Esplanade, the civic center of the Gustavo A. Madero mayor's office (GAM).">
+    <meta property="og:title" content="Gustavo A. Madero Chamber of Commerce"/>
+    <meta property="og:description" content="The Gustavo A. Madero Esplanade, the civic center of the Gustavo A. Madero mayor's office (GAM)."/>
     <meta property="og:type" content="website">
-    <meta property="og:image" content="path-to-your-image.jpg">
-    <meta property="og:url" content="https://yourwebsite.com">
-    <link rel="icon" href="path-to-your-favicon.ico">
+    <meta property="og:image" content="https://vad2099.github.io/wdd230/chamber/images/GAMExplanada.jpg" />
+    <meta property="og:url" content="https://vad2099.github.io/wdd230/chamber/index.html"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 800px)">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" type="images/png" href="images/logoFavicon.ico">
 </head>
 <body>
     <header>
-        <img src="path-to-your-logo.png" alt="Chamber logo" class="logo">
-        <button class="hamburger-menu" aria-label="Menu">☰</button>
-        <nav>
-            <ul class="nav-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <button class="dark-mode-toggle">Dark Mode</button>
+        <img src="images/logo2.jpg" alt="Chamber logo" class="logo" width="34" height="40">
+        <span>Gustavo A Madero <br>Chamber of Commerce</span>
+        <button id="hamburgerBtn"></button>
+        <img src="images/darkBtnIcon.svg" alt="dark mode" id="darkBtn">
+        <img src="images/lightBtnIcon.svg" alt="light mode" id="lightBtn">
     </header>
-    
+    <nav id="animatedList">
+        <ul class="navList">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
     <main>
         <section class="hero">
-            <img src="path-to-hero-image.jpg" alt="Hero image">
+            <img src="images/heroImage.jpeg" alt="Hero image">
             <div class="hero-text">
-                <h1>Welcome to Gustavo A. Madero Chamber of Commerce</h1>
+                <h1>We Unite, Serve, and Represent Local Commerce in Gustavo A. Madero.<br> Want to Learn How? Join the Chamber of Commerce Today!</h1>
                 <a href="#" class="cta-button">Join the Chamber</a>
             </div>
         </section>
-
-        <section class="events">
-            <h2>Upcoming Events</h2>
-            <p>Placeholder for current events...</p>
+        <article class="mission">
+            <h2>Our Mission</h2>
+            <p>At the Gustavo A. Madero Chamber of Commerce, we strive to serve as a vital economic engine, providing essential resources and support for businesses throughout the community. We offer a variety of services, events, and networking opportunities that empower local entrepreneurs, foster growth, and enhance the prosperity of our region. Through collaboration and dedication, we help businesses thrive and build meaningful connections that extend beyond commerce.</p>
+        </article>        
+        <section class="card">
+            <h2>Our local business members</h2>
+            <p>Mapacahe Code Studio</p>
+            <p>Nueva Esperanza Bakery</p>
+            <p>Crafts and Souvenirs La Villa</p>
+            <p>Aztec Warriors Dojo</p>
         </section>
-
-        <section class="weather">
+        <section class="card">
+            <h2>Upcoming Events</h2>
+            <div id="events">
+                <p>Garage sale to support a food bank</p>
+                <p>Everything is ready for our 30th anniversary</p>
+                <p>Forum for financial education</p>
+            </div>
+        </section>
+        <section class="card">
             <h2>Weather in Gustavo A. Madero</h2>
             <div class="weather-card">Placeholder for weather...</div>
         </section>
-
-        <section class="spotlights">
+        <section class="card">
             <h2>Business Spotlights</h2>
-            <div class="spotlight">Company 1...</div>
-            <div class="spotlight">Company 2...</div>
-            <div class="spotlight">Company 3...</div>
+            <div class="spotlight">
+                <h3>Mapacahe Code Studio</h3>
+                <p>Leading software development studio specializing in web and mobile apps for local businesses.</p>
+                <a href="#" class="spot-button">Learn More</a>
+            </div>
+            <div class="spotlight">
+                <h3>Nueva Esperanza Bakery</h3>
+                <p>Famous for its traditional Mexican pastries, Nueva Esperanza Bakery brings the taste of home to every bite.</p>
+                <a href="#" class="spot-button">See Their Products</a>
+            </div>
+            <div class="spotlight">
+                <h3>Crafts and Souvenirs La Villa</h3>
+                <p>A local shop offering unique crafts and souvenirs inspired by Mexican culture, perfect for visitors and locals alike.</p>
+                <a href="#" class="spot-button">Visit Their Store</a>
+            </div>
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2024 Gustavo A. Madero Chamber of Commerce. All rights reserved.</p>
-        <p>WDD 230 Project by Valdemar Lasnibat | Last updated: <span id="last-modified"></span></p>
+        <p>&copy;<span id="currentYear"></span> Gustavo A. Madero<br> Chamber of Commerce. All rights reserved.</p>
+        <p>WDD 230 Project by Valdemar Lasnibat<br><span id="lastModified"></span></p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com"><img src="images/facebooklogo.svg" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/Xlogo.svg" alt="X"></a>
+            <a href="https://instagram.com"><img src="images/instagramlogo.svg" alt="Instagram"></a>
+        </nav>
     </footer>
-
-    <script src="scripts/main.js"></script>
+    <script src="scripts/Data.js"></script>
+    <script src="scripts/codes.js"></script>
 </body>
 </html>
