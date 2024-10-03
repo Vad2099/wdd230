@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+  
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+  
+main img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    opacity: 0;
+    animation: fadeIn 15s forwards;
+}
+  
+footer {
+    margin: 20px 0;
+    text-align: center;
+}
+  
+/* Animación de desvanecimiento */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      filter: brightness(0);
+    }
+    to {
+      opacity: 1;
+      filter: brightness(1);
+    }
+}
+  

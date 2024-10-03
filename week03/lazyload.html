@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load</title>
+    <meta name="description" content="Lazy load example">
+    <meta name="author" content="Valdemar Lasnibat">
+    <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+<body>
+    <header>
+        <h1>Lazy Loading</h1>
+    </header>
+    <main>
+      <picture>
+        <img src="https://placehold.co/600x400" alt="Placeholder Image" loading="lazy" width="400" height="600">
+      </picture>
+      <picture>
+        <img src="https://placehold.co/700x400" alt="Placeholder Image" loading="lazy" width="400">
+      </picture>
+      <picture>
+        <img src="https://placehold.co/800x400" alt="Placeholder Image" loading="lazy" width="400">
+      </picture>
+      <picture>
+        <img src="https://placehold.co/650x400" alt="Placeholder Image" loading="lazy" width="400">
+      </picture>
+      <picture>
+        <img src="https://placehold.co/750x400" alt="Placeholder Image" loading="lazy" width="400">
+      </picture>
+      <picture>
+        <img src="https://placehold.co/850x400" alt="Placeholder Image" loading="lazy" width="400">
+      </picture>
+    </main>
+    <footer>
+        <p>©<span id="currentYear"></span> | 🦾🌊Valdemar Lasnibat🌊🦾 | Mexico <img src="https://flagcdn.com/96x72/mx.png" width="96" height="72" alt="Mexico"></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getData.js"></script>
+</body>
+</html>
