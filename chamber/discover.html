@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo A. Madero Chamber of Commerce</title>
+    <meta name="description" content="Welcome to the Gustavo A. Madero Chamber of Commerce official site. Fostering local business growth and community connections.">
+    <meta name="author" content="Valdemar Lasnibat">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Gustavo A. Madero Chamber of Commerce"/>
+    <meta property="og:description" content="The Gustavo A. Madero Esplanade, the civic center of the Gustavo A. Madero mayor's office (GAM)."/>
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://vad2099.github.io/wdd230/chamber/images/GAMExplanada.jpg" />
+    <meta property="og:url" content="https://vad2099.github.io/wdd230/chamber/index.html"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" type="images/png" href="images/logoFavicon.ico">
+
+</head>
+<body>
+    <header>
+        <img src="images/logo2.jpg" alt="Chamber logo" class="logo" width="34" height="40">
+        <span>Gustavo A Madero <br>Chamber of Commerce</span>
+        <button id="hamburgerBtn"></button>
+        <img src="images/darkBtnIcon.svg" alt="dark mode" id="darkBtn">
+        <img src="images/lightBtnIcon.svg" alt="light mode" id="lightBtn">
+    </header>
+    <nav id="animatedList">
+        <ul class="navList">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="higlight">
+      <h2>Discover Chamber of Commerce</h2>
+    </div>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="section">
+          <h3>Welcome!!!</h3>
+          <p><span class="visitMessage" id="visit-message"></span></p>
+        </div>
+        <div class="section">
+            <h3>Members</h3>
+            <p>We are more than 3,000 members in the chamber</p>
+        </div>
+        <div class="section">
+          <h3>Demographics</h3>
+          <p>Population: 1,000,000</p>
+          <p>Median Age: 35.5 years</p>
+        </div>
+        <div class="section">
+          <h3>Statistics</h3>
+          <p>Unemployment rate: 4.5%</p>
+          <p>Average income: $50,000/year</p>
+        </div>
+        <div class="section">
+          <h3>Upcoming Events</h3>
+          <ul>
+            <li>October 15: Fall Festival</li>
+            <li>November 3: Art Exhibition</li>
+            <li>December 25: Christmas Celebration</li>
+          </ul>
+        </div>
+        <div class="section">
+          <h3>Local Attractions</h3>
+          <p>Visit the Chiquihuite Hill for beautiful hikes and panoramic views of the city. The Cerro del Chiquihuite is a prominent mountain located in the north of Mexico City, offering stunning panoramic views of the surrounding areas.</p>
+          <p>The Basilica of Our Lady of Guadalupe, located in the northern part of Mexico City, is one of the most visited Catholic pilgrimage sites in the world. Every year, millions of faithful make the journey to this sacred site to honor the Virgin of Guadalupe, the patron saint of Mexico.</p>
+        </div>
+        <div class="calendar-container">
+            <div class="calendar-header" id="calendar-header"></div>
+            <div class="calendar-grid" id="calendar-grid"></div>
+        </div>
+      </aside>
+      <section class="photoGallery">
+        <h3>Our Gallery</h3>
+          <picture>
+            <source srcset="images/GAMChamber1-small.webp" type="image/webp" media="(max-width: 400px)">
+            <source srcset="images/GAMChamber1-medium.webp" type="image/webp" media="(max-width: 600px)">
+            <source srcset="images/GAMChamber1-large.webp" type="image/webp" media="(max-width: 900px)">
+            <img src="images/GAMChamber1.webp" alt="GAM chamber photo 1" width="1200" height="800" loading="lazy">
+          </picture>
+          <picture>
+            <source srcset="images/GAMChamber2-small.webp" type="image/webp" media="(max-width: 400px)">
+            <source srcset="images/GAMChamber2-medium.webp" type="image/webp" media="(max-width: 600px)">
+            <source srcset="images/GAMChamber2-large.webp" type="image/webp" media="(max-width: 900px)">
+            <img src="images/GAMChamber2.webp" alt="GAM chamber photo 2" width="1200" height="800" loading="lazy">
+          </picture>
+          <picture>
+            <source srcset="images/GAMChamber3-small.webp" type="image/webp" media="(max-width: 400px)">
+            <source srcset="images/GAMChamber3-medium.webp" type="image/webp" media="(max-width: 600px)">
+            <source srcset="images/GAMChamber3-large.webp" type="image/webp" media="(max-width: 900px)">
+            <img src="images/GAMChamber3.webp" alt="GAM chamber photo 3" width="1200" height="800" loading="lazy">
+          </picture>
+          <picture>
+            <source srcset="images/sala1-small.webp" type="image/webp" media="(max-width: 400px)">
+            <source srcset="images/sala1-medium.webp" type="image/webp" media="(max-width: 600px)">
+            <source srcset="images/sala1-large.webp" type="image/webp" media="(max-width: 900px)">
+            <img src="images/sala1.webp" alt="GAM chamber room1" width="1200" height="800" loading="lazy">
+          </picture>
+          <picture>
+            <source srcset="images/sala2-small.webp" type="image/webp" media="(max-width: 400px)">
+            <source srcset="images/sala2-medium.webp" type="image/webp" media="(max-width: 600px)">
+            <source srcset="images/sala2-large.webp" type="image/webp" media="(max-width: 900px)">
+            <img src="images/sala2.webp" alt="GAM chamber room2" width="1200" height="800" loading="lazy">
+          </picture>
+          <picture>
+            <source srcset="images/auditorio-small.webp" type="image/webp" media="(max-width: 400px)">
+            <source srcset="images/auditorio-medium.webp" type="image/webp" media="(max-width: 600px)">
+            <source srcset="images/auditorio-large.webp" type="image/webp" media="(max-width: 900px)">
+            <img src="images/auditorio.webp" alt="GAM chamber auditorio" width="1200" height="800" loading="lazy">
+          </picture>
+          <picture>
+            <source srcset="images/events1-small.webp" type="image/webp" media="(max-width: 400px)">
+            <source srcset="images/events1-medium.webp" type="image/webp" media="(max-width: 600px)">
+            <source srcset="images/events1-large.webp" type="image/webp" media="(max-width: 900px)">
+            <img src="images/events1.webp" alt="GAM chamber event 1" width="1200" height="800" loading="lazy">
+          </picture>
+          <picture>
+            <source srcset="images/events2-small.webp" type="image/webp" media="(max-width: 400px)">
+            <source srcset="images/events2-medium.webp" type="image/webp" media="(max-width: 600px)">
+            <source srcset="images/events2-large.webp" type="image/webp" media="(max-width: 900px)">
+            <img src="images/events2.webp" alt="GAM chamber event 2" width="1200" height="800" loading="lazy">
+          </picture>
+          <picture>
+            <source srcset="images/events3-small.webp" type="image/webp" media="(max-width: 400px)">
+            <source srcset="images/events3-medium.webp" type="image/webp" media="(max-width: 600px)">
+            <source srcset="images/events3-large.webp" type="image/webp" media="(max-width: 900px)">
+            <img src="images/events3.webp" alt="GAM chamber event 3" width="1200" height="800" loading="lazy">
+          </picture>
+          <picture>
+            <source srcset="images/evento-small.webp" type="image/webp" media="(max-width: 400px)">
+            <source srcset="images/evento-medium.webp" type="image/webp" media="(max-width: 600px)">
+            <source srcset="images/evento-large.webp" type="image/webp" media="(max-width: 900px)">
+            <img src="images/evento.webp" alt="GAM chamber main event" width="1200" height="800" loading="lazy">
+          </picture>
+      </section>
+    </div>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> Gustavo A. Madero<br> Chamber of Commerce. All rights reserved.</p>
+        <p>WDD 230 Project by Valdemar Lasnibat<br><span id="lastModified"></span></p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com"><img src="images/facebooklogo.svg" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/Xlogo.svg" alt="X"></a>
+            <a href="https://instagram.com"><img src="images/instagramlogo.svg" alt="Instagram"></a>
+        </nav>
+    </footer>
+    <script src="scripts/Data.js"></script>
+    <script src="scripts/codes.js"></script>
+    <script src="scripts/message.js"></script>
+</body>
+</html>

@@ -66,6 +66,68 @@
 		grid-template-rows: auto;
 	}
 
+	.higlight  h2 {
+		font-weight: 800;
+		font-size: 35px;
+	}
+
+	.container {
+		display: grid;
+		grid-template-columns: minmax(350px, 25%) 1fr;
+		grid-gap: 20px;
+		padding: 10px;
+	}
+
+	.section,
+	.calendar-container {
+		grid-column: 1 / 2;
+		
+	}
+
+	.calendar-container,
+	.calendar-grid {
+		position: sticky;
+		top: 20px; 
+	}
+
+	.photoGallery {
+		border-left: 3px solid #ffc31f;
+		justify-content: center;
+		align-content: center;
+	}
+
+	.photoGallery h3 {
+		color: var(--primary-color);
+		display: block;
+		text-align: center;
+		font-size: 30px;
+		font-weight: 700;
+		margin-left: 60px;
+	}
+
+	.photoGallery picture {
+		width: 100%;
+	}
+	
+	.photoGallery img {
+		width: 75%;
+		height: auto;
+		object-fit: cover;
+		padding: 10px;
+		margin-left: 80px;
+		transition: transform 0.5s ease-in-out;
+	}
+
+	.photoGallery img:hover {
+		cursor: pointer;
+		filter: contrast(50%);
+	}
+
+	.photoGallery img.hover-effect:hover {
+		transform: scale(1.10);
+	}
+
+
 	.hero  {
 		grid-column: 1 / 6;
 	}
