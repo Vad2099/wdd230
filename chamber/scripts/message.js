@@ -22,7 +22,7 @@ if (!lastVisitTime) {
         visitMessageElement.textContent = "Back so soon! Awesome!";
     // If the difference is exactly one day, display "1 day ago"
     } else if (daysDifference === 1) {
-        visitMessageElement.textContent = `You last visited 1 day ago.`;
+        visitMessageElement.textContent = "You last visited 1 day ago.";
     // Otherwise, display the number of days since the user's last visit
     } else {
         visitMessageElement.textContent = `You last visited ${daysDifference} days ago.`;
