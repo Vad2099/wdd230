@@ -1,0 +1,64 @@
+/* General styles for the table */
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    border: thin solid #211d1c;
+}
+
+/* Caption styling */
+caption {
+    font-size: 1rem;
+    margin-top: 20px;
+    font-weight: bold;
+    caption-side: bottom;
+}
+
+/* Header styles */
+thead {
+    background-color: #0081A7; /* Puedes cambiar el color */
+    color: white;
+    text-align: center;
+}
+
+thead th:first-child {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+thead th:nth-child(2),
+thead th:nth-child(3),
+thead th:nth-child(4),
+thead th:nth-child(5) {
+    border: thin solid #211d1c;
+    background-color: #00AFB9;
+    font-size: 15px;
+}
+
+tbody {
+    border: thin solid #211d1c;
+}
+
+/* Body styles with zebra striping */
+tbody tr:nth-child(odd) {
+    background-color: #FDFCDC; 
+    border: thin solid #F07167;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F07167; 
+    border: thin solid #F07167;
+}
+
+tbody td {
+    padding: 20px;
+    text-align: center;
+    border: thin solid #211d1c;
+}
+
+/* Optional hover effect */
+tbody tr:hover {
+    background-color: #FED9B7; /* Puedes cambiar el color */
+}
