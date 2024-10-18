@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Valdemar Lasnibat - WDD 230 - Web Frontend Development</title>
+        <meta name="description" content="Valdemar Lasnibat - WDD 230 - Web Frontend Development course assignment portal, web development projects, HTML, CSS, JavaScript assignments.">
+        <meta name="author" content="Valdemar Lasnibat">
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Home Page - Valdemar Lasnibat - WDD 230 - Web Frontend Development"/>
+        <meta property="og:description" content="Discover the beautiful panoramic view from the Chiquihuite Hill lookout. Personally, I live near the hill, and to me, it's truly magnificent."/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:image" content="https://vad2099.github.io/wdd230/images/cerro.jpg" />
+        <meta property="og:url" content="https://vad2099.github.io/wdd230/index.html"/>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <link rel="stylesheet" href="styles/form.css">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.webp" alt="logo" class="logo" width="34" height="40" loading="lazy">
+            <img class="profile" src="images/profile.webp" alt="Valdemar Lasnibat Profile" width="120" height="150" loading="lazy">
+            <span>Valdemar Lasnibat</span>
+            <button id="hamburgerBtn"></button>
+            <img src="images/darkBtnIcon.svg" alt="dark mode" id="darkBtn">
+            <img src="images/lightBtnIcon.svg" alt="light mode" id="lightBtn">
+        </header>    
+        <nav id="animated">
+            <ul class="menuList">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="week01/chamber-site-plan.html">Chamber</a></li>
+                <li><a href="#">Site Plan</a></li>
+                <li><a href="form.html" class="active">Form</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>New User Form</h1>
+            <p>Thank you for creating an account and for rating the page! We appreciate your feedback.</p>
+        
+     
+        </main>
+            
+        <footer>
+            <p>©<span id="currentYear"></span> | 🦾🌊Valdemar Lasnibat🌊🦾 | Mexico <img src="https://flagcdn.com/96x72/mx.png" width="96" height="72" alt="Mexico"></p>
+            <p id="lastModified"></p>
+        </footer>
+        <script src="scripts/getData.js"></script>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/formValidation.js"></script>
+    </body>
+</html>

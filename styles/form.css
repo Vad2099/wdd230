@@ -1,0 +1,134 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Global variables */
+:root {
+	--primary-color: #335C67;
+	--secondary-color: #F5F5F5;
+	--acent-color1: #660019;
+	--acent-color2: #f18455;
+	--acent-color3: #FFF0AD;
+	--acent-color4: #00523f;
+    --margin-range: 5px;
+}
+
+
+/*----------- BODY --------------*/
+
+
+/*----------- HEADER --------------*/
+
+
+/*----------- NAVIGATION --------------*/
+
+
+/*----------- FORM STYLING --------------*/
+
+main h1 {
+    font-family: "Merriweather", system-ui;
+    color: var(--primary-color);
+    padding-top: 20px;
+  	font-weight: 600;
+	font-size: 30px;
+	border-bottom: 2px solid rgba(188, 174, 174, 0.826);
+	text-align: left;
+}
+
+.wf2 fieldset {
+    margin: 2rem 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.wf2 legend {
+    color: var(--primary-color);
+    padding: 0 .5rem;
+}
+
+.wf2 label {
+    display: block;
+    padding-top: 1rem;
+    color: var(--acent-color4);
+    font-size: .9rem;
+}
+
+.wf2 div{
+    padding-top: 1rem;
+    color: var(--primary-color);
+    font-size: .75rem;
+}
+
+.wf2 input[type="text"],
+.wf2 input[type="password"],
+.wf2 input[type="email"] {
+    background-color: var(--secondary-color);
+    display: block;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 0.75rem;
+    color: var(--primary-color);
+    width: 100%;
+    max-width: 500px;
+    appearance: none;
+}
+
+
+
+.wf2 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#335C67, #00523f);
+    color: #fff;
+    border-radius: 6px;
+    padding: 0.7rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px var(--acent-color2);
+}
+
+.wf2 input[type="submit"]:hover {
+    cursor: pointer;
+    background-image: linear-gradient(#660019, #f18455);
+}
+
+.wf2 input:required {
+    border-bottom: solid 8px red;
+}
+
+.wf2 input:required:valid {
+    border-bottom: solid 8px green;
+}
+
+input[type=range] {
+    margin: var(--margin-range);
+    padding: 1rem;
+}
+
+.wf2 #rating {
+	width: 180px;
+	margin-bottom: 14px;
+}
+
+.wf2 #rangevalue {
+	font-size: 2rem;
+	color: var(--primary-color)
+}
+
+.wf2 #rangevalues {
+	display: none;
+}
+
+.wf2 #rangevalues option {
+	flex: 1 1 auto;
+}
+
+/*----------- FOOTER --------------*/
+
+
+
+
+
