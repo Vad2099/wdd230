@@ -66,6 +66,19 @@
 		grid-template-rows: auto;
 	}
 
+	main .thankyou {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		background-color: #f9f9f9;
+	}
+
 	.higlight  h2 {
 		font-weight: 800;
 		font-size: 35px;
@@ -76,6 +89,92 @@
 		grid-template-columns: minmax(350px, 25%) 1fr;
 		grid-gap: 20px;
 		padding: 10px;
+	}
+
+	.membership-container {
+		display: grid;
+		grid-template-columns: minmax(370px, 25%) 1fr;
+		grid-gap: 20px;
+		padding: 10px;
+	}
+
+	.thankyou {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 20px;
+		padding: 10px;
+		margin: 20px;
+	}
+
+	/* Table Styling */
+	/* General Table Styling */
+	table {
+		width: 90%;
+		margin: 20px auto;
+		border: none;
+		border-collapse: collapse;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+		border-radius: 10px;
+		overflow: hidden;
+		background-color: var(--background-color);
+	}
+
+	/* Header Styling */
+	thead {
+		background-color: var(--primary-color);
+		color: var(--background-color); /* Fondo oscuro con texto claro */
+	}
+
+	thead th {
+		padding: 1.6rem;
+		font-size: 1.2rem;
+		text-transform: uppercase;
+		letter-spacing: 0.05rem;
+		color: var(--secondary-color); /* Utilizando el color secundario para destacar */
+	}
+
+	/* Alternating row colors for zebra striping */
+	tbody tr:nth-child(odd) {
+		background-color: var(--accent-color); /* Color de acento para las filas impares */
+		color: var(--text-color); /* Texto en color oscuro */
+	}
+
+	tbody tr:nth-child(even) {
+		background-color: var(--secondary-color); /* Color secundario para las filas pares */
+		color: var(--text-color); /* Mantén el texto oscuro para contraste */
+	}
+
+	/* Styling for table cells */
+	th, td {
+		padding: 1.5rem;
+		text-align: center;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Soft bottom border */
+	}
+
+	tbody td {
+		font-size: 1.2rem;
+	}
+
+	/* Zebra row hover effect */
+	tbody tr:hover {
+		background-color: var(--primary-color); /* Cambia el color de fondo al primario */
+		color: var(--background-color); /* Texto claro cuando se hace hover */
+		transition: background-color 0.3s ease-in-out;
+	}
+
+	/* Column span styling for the main title */
+	thead tr:first-child th {
+		font-size: 1.8rem;
+		font-weight: bold;
+		padding: 1.5rem 0;
+		background-color: var(--primary-color);
+		color: var(--secondary-color); /* Color secundario para destacar el título */
+		letter-spacing: 0.1rem;
+	}
+
+	/* Table border and shadow */
+	table {
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 	}
 
 	.section,

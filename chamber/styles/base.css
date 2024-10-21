@@ -326,6 +326,242 @@ main h1 {
 	text-align: left;
 }
 
+/* Form Styling */
+
+.wfj {
+    margin: 20px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+    border: 2px solid var(--secondary-color);
+    border-radius: 6px;
+    
+}
+
+.wfj h2,
+.membership-benefits h2 {
+    font-family: "Merriweather", serif;
+    width: auto;
+    text-align: center;
+  	font-weight: 800;
+	font-size: 17px;
+    margin: 20px;
+	font-size: 1.5rem;
+    border-bottom: 2px solid var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.wfj fieldset {
+    margin:  1rem 0;
+    border: 0;
+    padding: .5rem 3%;
+}
+
+.wfj legend {
+    color: var(--primary-color);
+    font-weight: 700;
+    padding: 0 0.5rem;
+    font-size: 18px;
+}
+
+
+.wfj label {
+    display: block;
+    padding-top: 1rem;
+    font-size: 16px;
+    margin: 2px 2px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.wfj input[type="text"],
+.wfj input[type="email"],
+.wfj input[type="tel"],
+.wfj textarea {
+    display: block;
+    padding: 10px;
+	margin-bottom: 20px;
+	border: 0;
+	border-bottom: 1px solid var(--secondary-color);
+	font-size: 1rem;
+    width: 100%;
+    max-width: 500px;
+    appearance: none;
+}
+
+
+.wfj input[type="radio"] {
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #595959;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+.wfj input[type="radio"]:checked {
+    border: 6px solid var(--primary-color);
+}
+
+.wfj #membership {
+    display: inline;
+}
+
+.wfj input::placeholder,
+.wfj textarea::placeholder {
+    font-size: 15px;
+}
+
+.wfj input:required:valid {
+    border-left: solid 8px #65f8c7;
+}
+
+
+.wfj input:required {
+    border-left: solid 8px #f7aebd;
+	
+}
+
+.wfj input:invalid {
+    animation: shaketext 500ms;
+}
+
+@keyframes shaketext {
+	25% {
+		transform: translateX(3px);
+	}
+	50% {
+		transform: translateX(-3px);
+	}
+	75% {
+		transform: translateX(3px);
+	}
+}
+
+.wfj input[type="submit"] {
+    border: none;
+    border-radius: 6px;
+    background-image: linear-gradient(#003d7a, #ffc31f);
+    color: var(--background-color);
+    padding: 0.8rem;
+    width: 96%;
+    max-width: 500px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px var(--text-color); 
+}
+
+.wfj input[type="submit"]:hover {
+    cursor: pointer;
+    background-image: linear-gradient(#660019, #ff9a5c);
+}
+
+/* Thank you Styling */
+.thankyou {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.thankyou h1 {
+    border-bottom: 2px solid var(--secondary-color);
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+
+.thankyou p {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+	border: none;
+	border-collapse: collapse;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: var(--background-color);
+}
+
+/* Header Styling */
+thead {
+    background-color: var(--primary-color);
+    color: var(--background-color); /* Fondo oscuro con texto claro */
+}
+
+thead th {
+    padding: 1rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    color: var(--secondary-color); /* Utilizando el color secundario para destacar */
+}
+
+/* Alternating row colors for zebra striping */
+tbody tr:nth-child(odd) {
+    background-color: var(--accent-color); /* Color de acento para las filas impares */
+    color: var(--text-color); /* Texto en color oscuro */
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--secondary-color); /* Color secundario para las filas pares */
+    color: var(--text-color); /* Mantén el texto oscuro para contraste */
+}
+
+/* Styling for table cells */
+th, td {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Soft bottom border */
+    font-weight: 600;
+}
+
+
+thead th, tbody td {
+    padding: 0.9rem;
+}
+
+thead tr:first-child th {
+    font-size: 1.3rem;
+}
+
+tbody td {
+    font-size: 0.9rem;
+}
+
+/* Zebra row hover effect */
+tbody tr:hover {
+    background-color: var(--primary-color); /* Cambia el color de fondo al primario */
+    color: var(--background-color); /* Texto claro cuando se hace hover */
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Column span styling for the main title */
+thead tr:first-child th {
+    font-weight: bold;
+    padding: 1.5rem 0;
+    background-color: var(--primary-color);
+    color: var(--secondary-color); /* Color secundario para destacar el título */
+    letter-spacing: 0.1rem;
+}
+
+/* Table border and shadow */
+table {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
 .visitMessage {
     font-size: 18px;
     font-style: italic;
@@ -345,7 +581,8 @@ main h1 {
 }
 
 .container,
-.section .photoGallery {
+.section .photoGallery,
+.membership-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
@@ -441,7 +678,6 @@ main h1 {
     padding-top: 10px;
 
 }
-
 
 .mission {
     background-color: #F5F5F5; 

@@ -31,17 +31,80 @@
     </header>
     <nav id="animatedList">
         <ul class="navList">
-            <li><a href="#" class="active">Home</a></li>
+            <li><a href="index.html" >Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
+            <li><a href="#" class="active">Join</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="membership-container">
        <form method="get" action="thankyou.html" class="wfj">
+            <h2>Join Us</h2>
+            <fieldset>
+                <legend>New Member Information</legend>
+                <label>First Name* <input type="text" id="fname" name="fname" required></label>
+                <label>Last Name* <input type="text" id="lname" name="lname" required></label>
+                <label>Title or Position<input type="text" id="position" name="position" pattern="[A-Za-z -]{7,}" title="Minimum 7 characters of alphabets, hyphens, and spaces"></label>
+                <label>Email* <input type="email" name="email" id="email" placeholder="someone@hotmail.com" required></label>
+                <label> Mobile Phone Number* <input type="tel" name="phone" id="phone" placeholder="123-555-1234" required></label>
+                <label>Business or Organization*<input type="text" name="buo" id="buo" required></label>
+            </fieldset>
 
-       </form>
-    
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label><input type="radio" name="membership" id="np" value="np">NP Membership (free)</label>
+                <label><input type="radio" name="membership" id="bronze" value="bronze">Bronze Membership</label>
+                <label><input type="radio" name="membership" id="silver" value="silver">Silver Membership</label>
+                <label><input type="radio" name="membership" id="gold" value="gold">Gold Membership</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business/Organization Description</legend>
+                <label><textarea name="description" id="description" rows="5" cols="30" placeholder="Write a brief description"></textarea></label>
+            </fieldset>
+
+            <input type="hidden" name="timestamp" id="timestamp" value="">
+
+            <input type="submit" value="Join The Chamber">
+        </form>
+
+       <aside class="membership-benefits">
+        <h2>Choose the most suitable one for you</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3" scope="colgroup">GAM Chamber Services</th>
+                </tr>
+                <tr>
+                    <th scope="col">Membership Level</th>
+                    <th scope="col">Cost</th>
+                    <th scope="col">Benefits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>NP</td>
+                    <td>Free</td>
+                    <td>Access to community events, basic networking opportunities.</td>
+                </tr>
+                <tr>
+                    <td>Bronze</td>
+                    <td>$100/year</td>
+                    <td>All NP benefits + Event discounts, newsletters, basic advertising.</td>
+                </tr>
+                <tr>
+                    <td>Silver</td>
+                    <td>$250/year</td>
+                    <td>All Bronze benefits + Premium advertising, training sessions, homepage spotlight features.</td>
+                </tr>
+                <tr>
+                    <td>Gold</td>
+                    <td>$500/year</td>
+                    <td>All Silver benefits + VIP networking, exclusive events, custom promotional campaigns.</td>
+                </tr>
+            </tbody>
+        </table>
+    </aside>
     </main>
     <footer>
         <p>&copy;<span id="currentYear"></span> Gustavo A. Madero<br> Chamber of Commerce. All rights reserved.</p>
@@ -54,5 +117,6 @@
     </footer>
     <script src="scripts/Data.js"></script>
     <script src="scripts/codes.js"></script>
+    <script src="scripts/timestamp.js"></script>
 </body>
 </html>
