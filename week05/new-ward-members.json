@@ -1,0 +1,66 @@
+{
+    "families": [
+      {
+        "familyName": "Smith",
+        "moveInDate": "2023-04-15",
+        "numberOfPeople": 4,
+        "visitedByBishopric": true,
+        "familyMembers": [
+          {
+            "name": "John Smith",
+            "gender": "Male",
+            "birthdate": "1985-06-24"
+          },
+          {
+            "name": "Jane Smith",
+            "gender": "Female",
+            "birthdate": "1987-08-12"
+          },
+          {
+            "name": "Tom Smith",
+            "gender": "Male",
+            "birthdate": "2012-03-05"
+          },
+          {
+            "name": "Sally Smith",
+            "gender": "Female",
+            "birthdate": "2015-09-10"
+          }
+        ]
+      },
+      {
+        "familyName": "González",
+        "moveInDate": "2022-09-10",
+        "numberOfPeople": 5,
+        "visitedByBishopric": false,
+        "familyMembers": [
+          {
+            "name": "Carlos González",
+            "gender": "Male",
+            "birthdate": "1978-02-14"
+          },
+          {
+            "name": "María González",
+            "gender": "Female",
+            "birthdate": "1980-07-22"
+          },
+          {
+            "name": "Luis González",
+            "gender": "Male",
+            "birthdate": "2005-11-30"
+          },
+          {
+            "name": "Ana González",
+            "gender": "Female",
+            "birthdate": "2008-05-18"
+          },
+          {
+            "name": "Sofía González",
+            "gender": "Female",
+            "birthdate": "2011-12-06"
+          }
+        ]
+      }
+    ]
+}
+  
