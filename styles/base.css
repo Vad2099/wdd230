@@ -251,9 +251,28 @@ main h1 {
 	padding: 0.75rem 0;
 }
 
+.card h3 {
+	color: var(--primary-color);
+	font-size: 20px;
+	text-align: center;
+	margin: 0.3rem 0;
+}
+
+.card img {
+	padding: 10px 135px;
+	object-fit: cover;
+}
+
+.card #temperature {
+	font-size: 2rem;
+	margin: 0.3rem 0;
+}
+
 .card p {
 	padding: 10px;
 	color: var(--primary-color);
+	margin: 0.3rem 0;
+	text-align: center;
 }
 
 .card ul {

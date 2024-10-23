@@ -137,6 +137,13 @@
         height: 100%;
     }
 
+	.card img {
+		padding: 10px 80px;
+		height: auto;
+		object-fit: cover;
+		margin: 0;
+	}
+
 	footer {
 		font-size:large;
 	}
