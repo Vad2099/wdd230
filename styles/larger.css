@@ -138,9 +138,9 @@
     }
 
 	.card img {
-		padding: 10px 80px;
-		height: auto;
+		padding: 10px 130px;
 		object-fit: cover;
+		height: auto;
 		margin: 0;
 	}
 
