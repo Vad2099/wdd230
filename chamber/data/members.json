@@ -5,7 +5,7 @@
             "address": "Av Instituto Politécnico Nacional 1821, Lindavista Sur, Gustavo A. Madero, 07300, CDMX",
             "phone": "(55)217-66-59817",
             "website": "https://www.mapachestudio.com",
-            "image": "tech_innovators.png",
+            "image": "https://vad2099.github.io/wdd230/chamber/images/mapache1.webp",
             "membership": "Gold",
             "hours": "Mon-Fri 9:00 AM - 6:00 PM"
         },
@@ -14,7 +14,7 @@
             "address": "Nte. 24 13, Industrial, Gustavo A. Madero, 07800, CDMX",
             "phone": "(55)540-14-96331",
             "website": "https://www.nuevaesperanzabakery.com",
-            "image": "green_solutions.png",
+            "image": "https://vad2099.github.io/wdd230/",
             "membership": "Silver",
             "hours": "Mon-Sun 7:00 AM - 8:00 PM"
         },
@@ -23,7 +23,7 @@
             "address": "Calz de Guadalupe 748-740, Villa Gustavo A. Madero, Gustavo A. Madero, 07050, CDMX",
             "phone": "555-9876",
             "website": "https://www.souvenirslavilla.com",
-            "image": "blue_water.png",
+            "image": "https://vad2099.github.io/wdd230/",
             "membership": "Silver",
             "hours": "Sun-Sat 10:00 AM - 7:00 PM"
         },
@@ -32,7 +32,7 @@
             "address": "Av. 510, Pueblo de San Juan de Aragón, Gustavo A. Madero, 07940, CDMX",
             "phone": "(55)280-41-62625",
             "website": "https://www.aztecwarriors.com",
-            "image": "global_ventures.png",
+            "image": "https://vad2099.github.io/wdd230/",
             "membership": "NP",
             "hours": "Mon-Fri 4:00 PM - 9:00 PM, Sat 10:00 AM - 2:00 PM"
         },
@@ -41,7 +41,7 @@
             "address": "Pte 116 649, Industrial Vallejo, Azcapotzalco, 02300, CDMX",
             "phone": "(55)913-50-16892",
             "website": "https://www.ecofriendly.com",
-            "image": "eco_friendly.png",
+            "image": "https://vad2099.github.io/wdd230/",
             "membership": "Silver",
             "hours": "Mon-Fri 9:00 AM - 5:00 PM"
         },
@@ -50,7 +50,7 @@
             "address": "Av Instituto Politécnico Nacional 2023-2057, Nueva Industrial Vallejo, Gustavo A. Madero, 07738, CDMX",
             "phone": "(55)947-90-12115",
             "website": "https://www.kionet.com",
-            "image": "techy_solutions.png",
+            "image": "https://vad2099.github.io/wdd230/",
             "membership": "Gold",
             "hours": "Mon-Fri 8:00 AM - 6:00 PM"
         },
@@ -59,7 +59,7 @@
             "address": "Calz. San Juan de Aragón 399, Granjas Modernas, Gustavo A. Madero, 07460, CDMX",
             "phone": "(55)291-81-70640",
             "website": "https://www.acuariomichin.com",
-            "image": "mountain_adventures.png",
+            "image": "https://vad2099.github.io/wdd230/",
             "membership": "Gold",
             "hours": "Mon-Sun 10:00 AM - 6:00 PM"
         },
@@ -68,7 +68,7 @@
             "address": "Calvario 153, Tepeyac Insurgentes, Gustavo A. Madero, 07020, CDMX",
             "phone": "(55)868-02-60499",
             "website": "https://www.villahamburgers.com",
-            "image": "mountain_adventures.png",
+            "image": "https://vad2099.github.io/wdd230/",
             "membership": "Bronze",
             "hours": "Mon-Sun 12:00 PM - 12:00 AM"
         }
