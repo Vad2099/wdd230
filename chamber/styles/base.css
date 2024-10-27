@@ -3,7 +3,7 @@
     --primary-color: #003d7a;
     --secondary-color: #ffc31f;
     --accent-color: #ff9a5c;
-    --background-color: #f5f5f5;
+    --background-color: rgb(245, 245, 245);
     --text-color: #333333;
 }
 
@@ -326,6 +326,131 @@ main h1 {
 	text-align: left;
 }
 
+.memb {
+    margin: 1rem 1rem;
+    padding: 0.5rem;
+    max-width: 700px;
+}
+
+.menu   {
+    margin: 1rem auto;
+    text-align: center;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.menu button {
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    margin: 1rem 0.5rem;
+    background-color:  rgba(0, 61, 122, 0.4);
+    color: var(--text-color);
+    box-shadow: 1px 1px 4px var(--text-color); 
+    transition: background-color 0.3s;
+}
+
+.menu button:hover {
+    background-color: rgba(255, 154, 92, 0.4);
+    color: var(--text-color);
+}
+
+.menu .active-view {
+    background-color: rgba(245, 245, 245, 0.7);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.grid section {
+    text-align: center;
+}
+
+.grid section h3 {
+    font-size: 1.3rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.grid section p {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.grid section a {
+    font-size: 0.9rem;
+    margin: 6px;
+    letter-spacing: 1pt;
+}
+
+.grid img {
+    border: 1px solid var(--primary-color);
+    margin-top: 15px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px var(--text-color);
+}
+
+.memb section {
+    border: 1px solid var(--accent-color);
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+	margin: 1rem;
+	overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.grid > * {
+    margin:  0.2rem;
+}
+
+
+.list section {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 0;
+	padding: 0.25rem;
+    border-radius: 0;
+}
+
+.list section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section p {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.list section:nth-child(even) {
+	background-color: var(--background-color);
+    color: var(--primary-color);
+    border-left: var(--background-color);
+    border-right: var(--background-color);
+}
+
+.list section a {
+    margin-top: 3px;
+    margin-bottom: 4px;
+    font-size: 0.85rem;
+    color: navy;
+    letter-spacing: 1pt;
+}
+
 /* Form Styling */
 
 .wfj {
@@ -339,7 +464,8 @@ main h1 {
 }
 
 .wfj h2,
-.membership-benefits h2 {
+.membership-benefits h2,
+.memb h2 {
     font-family: "Merriweather", serif;
     width: auto;
     text-align: center;

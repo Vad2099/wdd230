@@ -28,7 +28,7 @@ async function apiFetch() {
     }  
 }
 
-//display de JSON data onto my web page
+//display the JSON data onto my web page
 function displayResults(data) {
     console.log("hello");
     myTown.innerHTML = data.name;

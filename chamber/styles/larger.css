@@ -97,6 +97,101 @@
 		grid-gap: 20px;
 		padding: 10px;
 	}
+	
+	/* Contenedor principal para la sección de miembros */
+	.memb {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+		gap: 10px; /* Espacio entre el título, botones y la cuadrícula */
+		padding: 10px;
+		width: 100%;
+		text-align: center;
+	
+	}
+
+	/* Título dentro de la sección memb */
+	.memb h2 {
+		font-size: 2.3rem;
+		align-items: center;
+		text-align: center;
+		font-weight: bolder;
+		margin-top: 10px;
+		padding-bottom: 5px;
+
+	}
+
+	/* Contenedor de botones */
+	.menu {
+		justify-content: center;
+		gap: 20px; /* Espacio entre botones */
+		align-self: center;
+		text-align: center;
+		width: 100%;
+		margin-left: 280px;
+	}
+
+
+	/* Contenedor de las cards en grid */
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+		gap: 20px; /* Espacio entre las cards */
+		padding: 20px;
+		width: 100%;
+		margin: auto;
+	}
+
+	/* Estilos para cada card */
+	.grid section {
+		text-align: center;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para cada card */
+		padding: 20px;
+		border-radius: 8px;
+		background-color: #ffc31f;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 350px; /* Para que cada card tome el 100% del ancho de su columna */
+		height: 350px;
+	}
+
+	.grid  section p {
+		font-size: 14px;
+		font-weight: 700;
+	}
+
+	.list {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		padding: 10px;
+		width: 100%;
+		text-align: center;
+		margin-left: 550px;
+	}
+	
+	.list section {
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr;
+		margin: 0;
+		padding: 1rem;
+		text-align: center;
+		align-items: center;
+	}
+	
+	.list section > * {
+		margin: 0 1rem;
+	}
+	
+	.list section img {
+		display: none; /* Ocultar en vista de lista */
+	}
+
 
 	.thankyou {
 		display: grid;
