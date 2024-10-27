@@ -10,7 +10,7 @@ const myLat = "19.49";
 const myLong = "-99.13";
 
 //construct a full path using template literals
-const myURL = `//api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myKey}&units=metric`
+const myURL = `//api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myKey}&units=metric`;
 
 
 async function apiFetch() {

@@ -42,7 +42,7 @@
             <img src="images/heroImage.jpeg" alt="Hero image" loading="lazy">
             <div class="hero-text">
                 <h1>We Unite, Serve, and Represent Local Commerce in Gustavo A. Madero.<br> Want to Learn How? Join the Chamber of Commerce Today!</h1>
-                <a href="#" class="cta-button">Join the Chamber</a>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
             </div>
         </section>
         <article class="mission">
@@ -51,10 +51,19 @@
         </article>        
         <section class="card">
             <h2>Our local business members</h2>
-            <p>Mapacahe Code Studio</p>
-            <p>Nueva Esperanza Bakery</p>
-            <p>Crafts and Souvenirs La Villa</p>
-            <p>Aztec Warriors Dojo</p>
+            <div class="business-members">
+                <p>Mapacahe Code Studio</p>
+                <p>Nueva Esperanza Bakery</p>
+                <p>Crafts and Souvenirs La Villa</p>
+                <p>Aztec Warriors Dojo</p>
+                <p>Eco Friendly Co</p>
+                <p>Kio Network</p>
+                <p>Acuario Michin</p>
+                <p>La Villa Hamburgers</p>
+            </div>
+            <div class="buttonContainer">
+                <a href="directory.html" class="membersButton">See More</a>
+            </div>
         </section>
         <section class="card">
             <h2>Upcoming Events</h2>
@@ -66,7 +75,12 @@
         </section>
         <section class="card">
             <h2>Weather in Gustavo A. Madero</h2>
-            <div class="weather-card">Placeholder for weather...</div>
+            <h3 id="town">#</h3>
+            <img id="graphic" src="#" alt="#">
+            <p id="description"></p>
+            <p id="temperature"></p>
+            <h3>Temperature forecast</h3>
+            <div id="forecast" class="forecast-container"></div>
         </section>
         <section class="card">
             <h2>Business Spotlights</h2>
@@ -98,5 +112,6 @@
     </footer>
     <script src="scripts/data.js"></script>
     <script src="scripts/codes.js"></script>
+    <script src="scripts/wheaterCard.js"></script>
 </body>
 </html>

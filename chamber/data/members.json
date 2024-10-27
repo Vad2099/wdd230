@@ -3,20 +3,22 @@
         {
             "name": "Mapache Code Studio",
             "address": "Av Instituto Politécnico Nacional 1821, Lindavista Sur, Gustavo A. Madero, 07300, CDMX",
-            "phone": "(55)217-66-59817",
+            "phone": "(55) 217-66-59817",
             "website": "https://www.mapachestudio.com",
             "image": "https://vad2099.github.io/wdd230/chamber/images/mapache1.webp",
             "membership": "Gold",
-            "hours": "Mon-Fri 9:00 AM - 6:00 PM"
+            "hours": "Mon-Fri 9:00 AM - 6:00 PM",
+            "description": "A leading software development studio specializing in web and mobile applications tailored for local businesses."
         },
         {
             "name": "Nueva Esperanza Bakery",
             "address": "Nte. 24 13, Industrial, Gustavo A. Madero, 07800, CDMX",
-            "phone": "(55)540-14-96331",
+            "phone": "(55) 540-14-96331",
             "website": "https://www.nuevaesperanza.com",
             "image": "https://vad2099.github.io/wdd230/chamber/images/nuevaEsperanza.webp",
             "membership": "Silver",
-            "hours": "Mon-Sun 7:00 AM - 8:00 PM"
+            "hours": "Mon-Sun 7:00 AM - 8:00 PM",
+            "description": "Known for its delicious traditional Mexican pastries, bringing a taste of home to every bite."
         },
         {
             "name": "Crafts and Souvenirs La Villa",
@@ -25,52 +27,58 @@
             "website": "https://www.souvenirslavilla.com",
             "image": "https://vad2099.github.io/wdd230/chamber/images/lavilla.webp",
             "membership": "Silver",
-            "hours": "Sun-Sat 10:00 AM - 7:00 PM"
+            "hours": "Sun-Sat 10:00 AM - 7:00 PM",
+            "description": "A local shop offering unique crafts and souvenirs inspired by Mexican culture, perfect for visitors and locals alike."
         },
         {
             "name": "Aztec Warriors Dojo",
             "address": "Av. 510, Pueblo de San Juan de Aragón, Gustavo A. Madero, 07940, CDMX",
-            "phone": "(55)280-41-62625",
+            "phone": "(55) 280-41-62625",
             "website": "https://www.aztecwarriors.com",
             "image": "https://vad2099.github.io/wdd230/chamber/images/azteca.webp",
             "membership": "NP",
-            "hours": "Mon-Fri 4:00 PM - 9:00 PM, Sat 10:00 AM - 2:00 PM"
+            "hours": "Mon-Fri 4:00 PM - 9:00 PM, Sat 10:00 AM - 2:00 PM",
+            "description": "A dojo dedicated to the martial arts, focusing on traditional Aztec fighting techniques and community wellness."
         },
         {
             "name": "Eco Friendly Co.",
             "address": "Pte 116 649, Industrial Vallejo, Azcapotzalco, 02300, CDMX",
-            "phone": "(55)913-50-16892",
+            "phone": "(55) 913-50-16892",
             "website": "https://www.ecofriendly.com",
             "image": "https://vad2099.github.io/wdd230/chamber/images/eco.webp",
             "membership": "Silver",
-            "hours": "Mon-Fri 9:00 AM - 5:00 PM"
+            "hours": "Mon-Fri 9:00 AM - 5:00 PM",
+            "description": "A company focused on sustainable products and eco-friendly solutions for everyday living."
         },
         {
             "name": "Kio Network",
             "address": "Av Instituto Politécnico Nacional 2023-2057, Nueva Industrial Vallejo, Gustavo A. Madero, 07738, CDMX",
-            "phone": "(55)947-90-12115",
+            "phone": "(55) 947-90-12115",
             "website": "https://www.kionet.com",
             "image": "https://vad2099.github.io/wdd230/chamber/images/kio.webp",
             "membership": "Gold",
-            "hours": "Mon-Fri 8:00 AM - 6:00 PM"
+            "hours": "Mon-Fri 8:00 AM - 6:00 PM",
+            "description": "A tech network providing innovative solutions and services to businesses and individuals in the region."
         },
         {
             "name": "Acuario Michin",
             "address": "Calz. San Juan de Aragón 399, Granjas Modernas, Gustavo A. Madero, 07460, CDMX",
-            "phone": "(55)291-81-70640",
+            "phone": "(55) 291-81-70640",
             "website": "https://www.acuariomichin.com",
             "image": "https://vad2099.github.io/wdd230/chamber/images/acuario.webp",
             "membership": "Gold",
-            "hours": "Mon-Sun 10:00 AM - 6:00 PM"
+            "hours": "Mon-Sun 10:00 AM - 6:00 PM",
+            "description": "An aquarium offering educational and entertaining experiences about marine life and conservation."
         },
         {
             "name": "La Villa Hamburgers",
             "address": "Calvario 153, Tepeyac Insurgentes, Gustavo A. Madero, 07020, CDMX",
-            "phone": "(55)868-02-60499",
+            "phone": "(55) 868-02-60499",
             "website": "https://www.villahamburgers.com",
             "image": "https://vad2099.github.io/wdd230/chamber/images/villaHamburger.webp",
             "membership": "Bronze",
-            "hours": "Mon-Sun 12:00 PM - 12:00 AM"
+            "hours": "Mon-Sun 12:00 PM - 12:00 AM",
+            "description": "A popular burger joint serving gourmet hamburgers and fast food in a friendly atmosphere."
         }
     ]
 }
