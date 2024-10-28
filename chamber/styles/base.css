@@ -841,6 +841,7 @@ table {
 	font-weight: 600;
 }
 
+
 .buttonContainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -931,6 +932,51 @@ table {
     border: 1px solid var(--background-color);
     border-radius: 8px;
 }
+
+.spotlight-container {
+    display: grid; /* Use grid for layout */
+    grid-template-columns: 1fr; /* Single column on mobile */
+    gap: 10px; /* Space between items */
+    margin: 1rem; /* Add margin for spacing */
+    text-align: center;
+}
+
+.spotlight-container a {
+    font-size:x-large;
+    font-weight: 700;
+}
+
+.spotlight-item:hover {
+    transform: scale(1.02); /* Slightly scale on hover */
+}
+
+.spotlight-container img {
+    width: 75%;
+    height: auto;
+    object-fit: cover;
+}
+
+.banner {
+    background-color: #f9c74f; /* Yellow background */
+    color: #333; /* Dark text */
+    padding: 15px; /* Padding around text */
+    text-align: center; /* Centered text */
+    position: relative; /* For positioning the close button */
+    margin: 10px 0; /* Margin above and below the banner */
+}
+
+.banner button {
+    background: none; /* No background */
+    border: none; /* No border */
+    color: #333; /* Dark text */
+    font-size: 1.2em; /* Slightly larger text */
+    position: absolute; /* Position relative to the banner */
+    right: 10px; /* Align to the right */
+    top: 10px; /* Align to the top */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+
 
 .spotlight p {
     color: var(--primary-color);
