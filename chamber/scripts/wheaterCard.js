@@ -48,7 +48,8 @@ async function apiForecastFetch() {
 function displayResults(data) {
     myTown.innerHTML = data.name; // Show the location name
     myDescription.innerHTML = data.weather[0].description; // Display weather description
-    myTemperature.innerHTML = `${data.main.temp}&deg;C`; // Display temperature in Celsius
+    const roundedTemp = Math.round(data.main.temp); // Round the temperature to the nearest integer
+    myTemperature.innerHTML = `${roundedTemp}&deg;C`; // Display temperature in Celsius
     const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`; // Set the weather icon URL
     myGraphic.setAttribute('src', iconsrc); // Display the weather icon
     myGraphic.setAttribute('alt', data.weather[0].description); // Set alt text for the icon
@@ -65,7 +66,7 @@ function displayForecast(forecastData) {
         const date = new Date(day.dt * 1000); // Convert Unix timestamp to Date object
         const options = { weekday: 'long', month: 'short', day: 'numeric' }; // Date formatting options
         const dayName = date.toLocaleDateString('en-US', options); // Get formatted date string
-        const temp = day.main.temp; // Temperature for the day
+        const roundedTemp = Math.round(day.main.temp); // Round the temperature to the nearest integer
         const icon = `https://openweathermap.org/img/w/${day.weather[0].icon}.png`; // Icon URL for the forecast
         
         // Construct HTML content for each day’s forecast
@@ -73,7 +74,7 @@ function displayForecast(forecastData) {
             <div class="forecast-day">
                 <p>${dayName}</p>
                 <img src="${icon}" alt="${day.weather[0].description}">
-                <p>${temp}&deg;C</p>
+                <p>${roundedTemp}&deg;C</p>
             </div>
         `;
     });

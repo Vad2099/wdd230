@@ -941,9 +941,27 @@ table {
     text-align: center;
 }
 
+.spotlight-container h3 {
+    font-size: 21px;
+}
+
+.spotlight-container p {
+    font-size: 19px;
+}
+
 .spotlight-container a {
     font-size:x-large;
-    font-weight: 700;
+    font-weight: 800;
+}
+
+/* Individual spotlight items */
+.spotlight-item {
+    background-color: var(--secondary-color); /* Background color */
+    border: 1px solid var(--primary-color); /* Border for items */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Inner padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease; /* Smooth hover effect */
 }
 
 .spotlight-item:hover {

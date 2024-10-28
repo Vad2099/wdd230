@@ -1,5 +1,5 @@
 /* Media Queries for larger screens */
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 710px) {
 
     header {
         display: flex;
@@ -375,6 +375,7 @@
 	.business-members {
 		display: flex; /* Utiliza flexbox para distribución */
 		flex-direction: row; /* Dirección de la columna */
+		padding: 10px 10px;
 		font-size: 20px;
 		font-weight: 600;
 	}
@@ -409,7 +410,9 @@
 		column-gap: 3px;
 	}
 
-
+	.spotlight-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    }
 
     footer {
         font-size: large;
