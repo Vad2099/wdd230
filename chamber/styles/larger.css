@@ -380,6 +380,9 @@
 		font-weight: 600;
 	}
 
+	.card #events {
+		font-size: 21px;
+	}
 	
 	.membersButton {
 		padding: 20px 22px; /* Espaciado interno */
